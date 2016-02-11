@@ -20,6 +20,10 @@ def about():
 def contact():
 	return render_template('contact.html')
 
+@app.route('/demo')
+def contact():
+	return render_template('demo.html')
+
 @app.route('/output')
 def cities_output():
 	#pull 'ID' from input field and store it
